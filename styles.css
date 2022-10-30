@@ -1,0 +1,241 @@
+/* css reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* css reset end */
+.back {
+}
+body {
+  width: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#hero-section {
+  background-color: #1f2937;
+  padding: 10px 100px 40px 100px;
+}
+
+.header-text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding-top: 50px;
+}
+
+.secondary-text,
+.link-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 400;
+}
+
+.secondary-text {
+  padding-top: 15px;
+}
+
+.link-text {
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+  /* padding-right: 15px; */
+}
+.nav-links > a {
+  margin-right: 15px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.img-restaurant {
+  width: 600px;
+  padding-left: 30px;
+}
+
+.intro {
+  display: flex;
+  margin-top: 15px;
+}
+
+/* .signup-button {
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+} */
+
+.signup-button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 8em;
+}
+
+.signup-button:disabled {
+  cursor: default;
+}
+
+.signup-button:focus {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
