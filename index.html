@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Little Restaurant</title>
+    <title>Acapella Restaurant</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,11 +20,11 @@
         <!-- nav section -->
         <div class="back">
             <nav class="nav-container">
-                <h3 class="header-text">Little Lemon</h3>
+                <h3 class="header-text">Acapella</h3>
                 <div class="nav-links">
                     <a href="#" class="link-text">Home</a>
-                    <a href="#" class="link-text">Info</a>
-                    <a href="#" class="link-text">Sign Up</a>
+                    <a href="#info" class="link-text">Info</a>
+                    <a href="#signup" class="link-text">Sign Up</a>
                     <!-- <ul>
                         <li><a href="#" class="link-text">Home</a></li>
                         <li><a href="#" class="link-text">Info</a></li>
@@ -33,11 +36,10 @@
         <!-- intro section -->
         <div class="intro">
             <div class="intro-text">
-                <h2 class="main-text">This website is awesome.</h2>
-                <p class="secondary-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt fuga rem
-                    quia adipisci ad dicta
-                    sapiente delectus sed nemo culpa quam, perferendis beatae accusantium doloribus incidunt commodi
-                    atque quis id!</p>
+                <h2 class="main-text">OUR MENUS</h2>
+                <p class="secondary-text">Our creative, food and beverage program combines satisfying staples with
+                    imaginative twists. From boozy brunches and happy hours to family dinners, special occasions and
+                    everything in between, The Acapella has something for everyone.</p>
                 <button class="signup-button" role="button">Sign Up</button>
             </div>
             <div class="intro-img">
@@ -46,40 +48,40 @@
         </div>
     </div>
     <!-- Some info section -->
-    <section class="info">
-        <h3>Some random Information</h3>
+    <section class="info" id="info">
+        <h3 class="info-header">Some Information About The Restaurant</h3>
 
         <div class="info-container">
-            <div class="info-item-a">
+            <div class="info-items info-item-a">
                 <div class="img-place">
-
+                    <img src="images/resphoto1.jpg" alt="Inside restaurant">
                 </div>
                 <p>
-                    Some Text...
+                    Interior Design
                 </p>
             </div>
-            <div class="info-item-b">
+            <div class="info-items info-item-b">
                 <div class="img-place">
-
+                    <img src="images/resphoto2.jpg" alt="Restaurant Photo">
                 </div>
                 <p>
-                    Some Text...
+                    The Food We Served
                 </p>
             </div>
-            <div class="info-item-c">
+            <div class="info-items info-item-c">
                 <div class="img-place">
-
+                    <img src="images/resphoto3.jpg" alt="Restaurant Photo">
                 </div>
                 <p>
-                    Some Text...
+                    Snapshots
                 </p>
             </div>
-            <div class="info-item-d">
+            <div class="info-items info-item-d">
                 <div class="img-place">
-
+                    <img src="images/resphoto4.jpg" alt="Restaurant Photo">
                 </div>
                 <p>
-                    Some Text...
+                    Best customer service
                 </p>
             </div>
         </div>
@@ -90,30 +92,31 @@
         <figure>
             <blockquote>
                 <p>
-                    A great restaurant is one that just makes you feel like you're not sure whether you went out or you
+                    "A great restaurant is one that just makes you feel like you're not sure whether you went out or you
                     came
-                    home and confuses you. If it can do both of those things at the same time, you're hooked.
+                    home and confuses you. If it can do both of those things at the same time, you're hooked."
                 </p>
             </blockquote>
             <figcaption>
-                Danny Meyer
+                - Danny Meyer
             </figcaption>
         </figure>
     </section>
     <!-- signup section -->
-    <section class="signup-section">
+    <section class="signup-section" id="signup">
         <div class="signup-container">
             <div class="signup-motto">
-                <h4>Call to action! It's time!</h4>
-                <p>Sign up to take reservation at our restaurant by clicking this sign up button.</p>
+                <h4 class="action-header">Call to action! It's time!</h4>
+                <p class="action-text">Sign up to take reservation at our restaurant by clicking this sign up button.
+                </p>
             </div>
-            <div class="signup-button">
-                <button>Sign Up</button>
+            <div>
+                <button class="signup-button" role="button">Sign Up</button>
             </div>
         </div>
     </section>
     <footer>
-        <p>Copyright <span>&copy;</span> Little Restaurant 2022</p>
+        <p class="copyright">Copyright <span>&copy;</span> Acapella Restaurant 2022</p>
     </footer>
 </body>
 
